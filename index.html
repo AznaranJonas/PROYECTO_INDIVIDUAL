@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Chakra+Petch:wght@700&family=Inter:wght@400;700&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+    <title>-PROYECTO INDIVIDUAL-</title>
+</head>
+
+<body>
+
+    <div class="container">
+        <div class="contenedor__contenido">
+            <div class="contenedor__informaciones">
+                <div class="contenedor__texto">
+                    <h1></h1>
+                    <p class="texto__parrafo"></p>
+                </div>
+                <input type="number" id="valorUsuario" min="1" max="10" class="contenedor__input">
+                <div class="intento contenedor__botones">
+                    <button onclick="verificarIntento();" class="contenedor__boton">Intentar</button>
+                    <button onclick="reiniciarJuego();" class="contenedor__boton" id="reiniciar" disabled>Nuevo
+                        juego</button>
+                </div>
+            </div>
+            <img src="./img/iaRomeo.png" alt="Una persona mirando a la izquierda" class="contenedor__imagen-persona" />
+        </div>
+    </div>
+
+    <footer class="pie-pagina">
+        <div class="pie-pagina__contenido">
+            <div class="pie-pagina__informacion">
+                <p class="pie-pagina__nombre">Rivadeneyra Aznaran Jonas Alvaro</p>
+                <p class="pie-pagina__telefono">907094805</p>
+            </div>
+            <a href="/amigi_secreto/index.html" class="pie-pagina__boton">Jugar al amigo secreto</a>
+        </div>
+    </footer>
+
+    <script src="app.js"></script>
+
+
+</body>
+
+</html>
